@@ -1,0 +1,7 @@
+<h3>Item list:</h3>
+<app-item
+  *ngFor="let item of items; index as index; odd as odd; trackBy: trackByItem"
+  [item]="item"
+  [index]="index"
+  [class.odd]="odd"
+></app-item>

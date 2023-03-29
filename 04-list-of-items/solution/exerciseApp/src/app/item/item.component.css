@@ -1,0 +1,3 @@
+:host(.odd) div {
+  background-color: lightgray;
+}
