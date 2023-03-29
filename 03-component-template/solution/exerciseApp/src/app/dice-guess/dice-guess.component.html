@@ -1,0 +1,17 @@
+<h1>Guess the dice!</h1>
+
+<p>Number of wins: {{ wins }}</p>
+
+<input
+  type="number"
+  min="1"
+  max="6"
+  [value]="chosenValue"
+  (input)="chosenValue = updateValue($event)"
+/>
+
+<hr />
+
+<button (click)="rollDice()">Roll the dice!</button>
+
+<p>Rolled dice: {{ rolledDice }}</p>
