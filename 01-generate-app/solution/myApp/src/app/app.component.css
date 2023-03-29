@@ -1,0 +1,11 @@
+:host {
+  font-family: "Roboto";
+  --xebia-color: #6a1d57;
+}
+h1 {
+  color: var(--xebia-color);
+}
+svg {
+  width: 200px;
+  fill: var(--xebia-color);
+}
