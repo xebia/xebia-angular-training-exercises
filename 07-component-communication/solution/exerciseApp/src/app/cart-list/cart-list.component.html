@@ -1,0 +1,5 @@
+<h2>Shopping cart contents:</h2>
+<ul>
+  <li *ngFor="let item of shoppingCartService.content$ | async">{{ item }}</li>
+</ul>
+<button (click)="shoppingCartService.clearCart()">Clear cart</button>
