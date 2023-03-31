@@ -1,0 +1,9 @@
+<h2>Do it all!</h2>
+
+<p>This component does everything...</p>
+
+<p>Current time: {{ timeService.time$ | async | date : "medium" }}</p>
+
+<p>Checked: {{ checkedService.checked$ | async }}</p>
+
+<button (click)="checkedService.toggleChecked()">Toggle</button>
