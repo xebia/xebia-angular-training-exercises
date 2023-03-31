@@ -1,0 +1,7 @@
+<img
+  [src]="
+    (powerService?.plug$ | async)
+      ? 'assets/socket_plugged.png'
+      : 'assets/socket_unplugged.png'
+  "
+/>
