@@ -1,0 +1,7 @@
+<h1>Move the mouse around</h1>
+
+<div id="area" #area>
+  <div id="pointer" [style]="pointerStyle$ | async"></div>
+</div>
+
+<label>X, Y coordinates: {{ x$ | async }}, {{ y$ | async }}</label>

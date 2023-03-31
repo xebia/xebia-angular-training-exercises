@@ -1,0 +1,14 @@
+#area {
+  width: 600px;
+  height: 400px;
+  background-color: cadetblue;
+}
+
+#pointer {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: blue;
+  pointer-events: none;
+}
