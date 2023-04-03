@@ -1,0 +1,14 @@
+<div id="grid">
+  <div id="result">{{ calculationService.display$ | async }}</div>
+
+  <app-number-button
+    *ngFor="let num of [7, 8, 9, 4, 5, 6, 1, 2, 3, 0]"
+    [num]="num"
+    (pressed)="calculationService.push($event)"
+  ></app-number-button>
+
+  <button (click)="calculationService.plus()">+</button>
+  <button (click)="calculationService.is()">=</button>
+
+  <button id="clear" (click)="calculationService.clear()">CLEAR</button>
+</div>

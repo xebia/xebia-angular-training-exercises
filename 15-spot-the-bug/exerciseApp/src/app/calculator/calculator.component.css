@@ -1,0 +1,21 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 400px;
+}
+
+#result {
+  grid-column: 1/4;
+  background: lightblue;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-right: 10px;
+  font-size: x-large;
+}
+
+#clear {
+  grid-column: 1/4;
+}
