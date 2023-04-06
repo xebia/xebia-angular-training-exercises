@@ -11,7 +11,7 @@ export class MouseObserverComponent implements AfterViewInit {
 
   x$!: Observable<number>;
   y$!: Observable<number>;
-  pointer$!: Observable<object>;
+  pointerStyle$!: Observable<object>;
 
   ngAfterViewInit() {
     // TODO create an observable from the 'mousemove' event on areaEl

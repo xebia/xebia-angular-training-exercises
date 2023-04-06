@@ -23,8 +23,8 @@ extraction.
 First, generate two new services by running these commands under `exerciseApp/`:
 
 ```
-ng generate service TimeService
-ng generate service CheckedService
+ng generate service Time
+ng generate service Checked
 ```
 
 Move the state and manipulation methods to their respective services. Inject the services and wire them up in the
