@@ -88,3 +88,8 @@ Open `src/index.html` and add the following element to the <head> tag:
 ```
 
 Refresh the development page to see your app in full glory!
+
+## Bonus if you have time left
+
+1. You have used `ng new` and `ng serve` so far. Are there more Angular CLI commands you can run? Some of the commands need to install packages. Angular takes care of setting everything up to some defaults.
+2. Can you update the unit tests so that they pass again?

@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { combineLatest, fromEvent, map, Observable } from 'rxjs';
+import { combineLatest, delay, filter, fromEvent, map, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-mouse-observer',
